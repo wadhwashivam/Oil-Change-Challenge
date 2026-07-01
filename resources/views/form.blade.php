@@ -21,18 +21,18 @@
     @csrf
 
     <div>
-        <label for="currentOdometer">Current Odometer (km)</label>
-        <input type="number" name="currentOdometer" id="currentOdometer" value="{{ old('currentOdometer')}}">
+        <label for="current_odometer">Current Odometer (km)</label>
+        <input type="number" name="current_odometer" id="current_odometer" value="{{ old('current_odometer')}}">
     </div>
 
     <div>
-        <label for="previousOilChangeDate">Date of Previous Oil Change</label>
-        <input type="date" name="previousOilChangeDate" id="previousOilChangeDate" value="{{ old('previousOilChangeDate')}}">
+        <label for="previous_oil_change_date">Date of Previous Oil Change</label>
+        <input type="date" name="previous_oil_change_date" id="previous_oil_change_date" value="{{ old('previous_oil_change_date')}}">
     </div>
 
     <div>
-        <label for="previousOdometer">Previous Odometer (km)</label>
-        <input type="number" name="previousOdometer" id="previousOdometer" value="{{ old('previousOdometer')}}">
+        <label for="previous_odometer">Previous Odometer (km)</label>
+        <input type="number" name="previous_odometer" id="previous_odometer" value="{{ old('previous_odometer')}}">
     </div>
 
     <button type="submit">Check</button>
