@@ -16,7 +16,7 @@ A car is due for an oil change if either of the following is true:
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/wadhwashivam/Oil-Change-Challenge.git
    cd oil-change-challenge
    ```
 
